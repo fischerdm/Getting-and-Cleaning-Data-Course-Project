@@ -1,4 +1,4 @@
-# Getting and Cleaning Data -- Course Project 2
+# Getting and Cleaning Data -- Course Project
 # run_analysis.R
 
 # This script does the following:
@@ -13,8 +13,8 @@
 ###############################################################################
 
 # set working directory
-setwd("~/Documents/The_Data_Science_Specialization/Kurse/Getting_and_Cleaning_Data/Project")
-getwd()
+# setwd("~/Documents/The_Data_Science_Specialization/Kurse/Getting_and_Cleaning_Data/Project")
+# getwd()
 
 # download file
 if(!file.exists("./data")) {
