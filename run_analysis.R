@@ -11,11 +11,11 @@
 
 # Step 0: Download and unzip files
 ###############################################################################
-
+# ----------------------------------------------------------------------------
 # set working directory
 # setwd("~/Documents/The_Data_Science_Specialization/Kurse/Getting_and_Cleaning_Data/Project")
 # getwd()
-
+# ----------------------------------------------------------------------------
 # download file
 if(!file.exists("./data")) {
         dir.create("./data")
@@ -28,7 +28,7 @@ if(!file.exists("./data/Dataset.zip")) {
 
 # unzip the file and put it into the data directory
 unzip(zipfile = "./data/Dataset.zip", exdir = "./data")
-
+# ----------------------------------------------------------------------------
 # Step 1: create one dataset
 ############################################################################### 
 # ----------------------------------------------------------------------------
